@@ -1,0 +1,17 @@
+$font-title-header: 400 clamp(2.5rem, 3.5vw, 3.12rem) 'Roboto', sans-serif;
+
+header {
+    background: #04009A;
+    margin: 0 auto;
+    height: clamp(5rem, 15vw, 8rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 2rem 2rem;
+
+    h1 {
+        color: var(--color-title);
+        font: $font-title-header;
+    }
+}

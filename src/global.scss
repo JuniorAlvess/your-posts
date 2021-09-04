@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --color-title: #C9EFF9;
+    --color-background-post: #77ACF1;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F2F2F2;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+    background: #F9FCFD;
+
+    width: 90%;
+    min-height: 80vh;
+
+    margin: 2rem auto;
+
+    padding: 1rem 0;
+
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.2em #ccc;
+
+    ul {
+        padding: 0;
+    }
+}
+
+@media (min-width: 800px) {
+    header {
+        width: 70vw;
+        padding: 0 1rem;
+    }
+
+    main {
+        width: 60vw;
+    }
+}
