@@ -1,0 +1,39 @@
+$font-title-post: 400 clamp(1rem, 2vw, 1.8rem) 'Roboto',
+sans-serif;
+
+li {
+    list-style: none;
+    margin: 2rem auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .push-to-post {
+        background: var(--color-background-post);
+
+        width: 90%;
+        min-height: 4.500rem;
+
+        padding: 1rem;
+        text-align: center;
+  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: var(--color-title);
+        font: $font-title-post;
+
+        border: 1px solid #C9EFF9;
+        border-radius: 0.625rem;
+
+        text-decoration: none;
+        transition: .3s;
+
+        &:hover {
+            filter: brightness(.96);
+            box-shadow: 0 0 .2em #333;
+        }
+    }
+}
